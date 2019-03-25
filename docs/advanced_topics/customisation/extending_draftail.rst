@@ -53,7 +53,7 @@ All of these plugins are created with a similar baseline, which we can demonstra
 
         # 6. (optional) Add the feature to the default features list to make it available
         # on rich text fields that do not specify an explicit 'features' list
-        features.default_features.append('mark')
+        features.default_features.append(feature_name)
 
 These steps will always be the same for all Draftail plugins. The important parts are to:
 
